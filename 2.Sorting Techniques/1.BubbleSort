@@ -54,7 +54,7 @@ FILE *fptr;
 
 int i=0;
 
-fptr=fopen("D:\\input.txt","r");
+fptr=fopen("inputFile1.txt","r");
 
 while((fscanf(fptr,"%d",&arr[i]))!=EOF){
 
@@ -74,7 +74,7 @@ printArray(arr, size);
 
 end=clock();
 
-execution_time=((double(end-start))/CLOCKS_PER_SEC);
+execution_time=((double)(end-start))/CLOCKS_PER_SEC;
 
 printf("\nTime taken to execute in second: %f",execution_time);
 
@@ -122,7 +122,7 @@ double execution_time;
 
 start=clock();
 
-int arr[1200];
+int arr[1100];
 
 FILE *fptr;
 
@@ -220,7 +220,7 @@ FILE *fptr;
 
 int i=0;
 
-fptr=fopen("input.txt","r");
+fptr=fopen("inputFile1.txt","r");
 
 while((fscanf(fptr,"%d",&arr[i]))!=EOF){
 
@@ -240,7 +240,7 @@ printArray(arr, size);
 
 end=clock();
 
-execution_time=((double(end-start))/CLOCKS_PER_SEC);
+execution_time=((double)(end-start))/CLOCKS_PER_SEC;
 
 printf("\nTime taken to execute in second: %f",execution_time);
 
