@@ -1,0 +1,43 @@
+2.2. Creating the file with 50% elements are sorted and remaining unsorted
+
+2.2.a.The file contains sorted elements
+
+#include<stdio.h>
+
+#include<stdlib.h>
+
+int main()
+{
+
+int size = 500, last =0;
+
+FILE *fptr;
+
+fptr = fopen("input1.txt", "w");
+
+if (fptr == NULL)
+{
+printf("ERROR Creating File!");
+
+exit(1);
+
+}
+
+while(size-- >0) 
+
+{
+
+last += (rand()%50);
+
+fprintf(fptr,"%d \t",last);
+
+}
+
+printf("file created successfully");
+
+fclose(fptr);
+
+return 0;
+
+}
+
