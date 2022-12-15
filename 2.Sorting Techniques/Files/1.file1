@@ -1,0 +1,61 @@
+2.1.Creating a file contains the elements size of the array more than 1000.
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int main(){
+
+int arr[1200];
+
+FILE *fptr;
+
+int i=0,n;
+
+int str;
+
+fptr = fopen("D:\\inputFile1.txt", "w");
+
+if(fptr == NULL){
+
+printf("ERROR Creating File!");
+
+exit(1);
+
+}
+
+while(i<1000)
+
+{
+
+fprintf(fptr,"%d \t",rand()% 1000);
+
+i++;
+
+}
+
+fprintf(fptr,"%d\t",arr[i]);
+
+printf("file created succesfully");
+
+fclose(fptr);
+
+fptr = fopen("D:\\input.txt", "r");
+
+printf("\n The content of the file %s is :\n",fptr);
+
+str = fgetc(fptr);
+
+while(str != EOF) {
+
+printf ("%c", str);
+
+str = fgetc(fptr);
+
+}
+
+fclose(fptr);
+
+return 0;
+
+}
