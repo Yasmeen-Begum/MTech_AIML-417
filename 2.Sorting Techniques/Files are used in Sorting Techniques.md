@@ -61,7 +61,8 @@ return 0;
 }
 	
 output:
-![Screenshot (3151)](https://user-images.githubusercontent.com/91931504/207857343-977e4d82-fc47-4b29-8652-201d08aa1c63.png)
+
+![Screenshot (3152)](https://user-images.githubusercontent.com/91931504/207869104-2fa5caca-50c1-4c23-931a-07c168b28f6b.png)
 
 
 
