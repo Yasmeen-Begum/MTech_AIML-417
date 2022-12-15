@@ -2,7 +2,9 @@
 
 1.Creating a file contains the elements size of the array more than 1000.
 #include <stdio.h>
+
 #include <stdlib.h>
+
 int main(){
 int  arr[1200];
 FILE   *fptr;
