@@ -1,0 +1,45 @@
+2.2.c.The file are used to merge the two files with first half sorted and remaining unsorted elements
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int main()
+
+{
+
+FILE *fp1 = fopen("d:\\input1.txt", "r");
+
+FILE *fp2 = fopen("D:\\input2.txt", "r");
+
+FILE *fp3 = fopen("D:\\inputFile2.txt", "w");
+
+char c;
+
+if (fp1 == NULL || fp2 == NULL || fp3 == NULL) {
+
+puts("Could not open files");
+
+exit(0); 
+
+}
+
+while ((c = fgetc(fp1)) != EOF)
+
+fputc(c, fp3);
+
+while ((c = fgetc(fp2)) != EOF)
+
+fputc(c, fp3);
+
+printf("Merged input1.txt and input2.txt into inputFile2.txt");
+
+fclose(fp1);
+
+fclose(fp2);
+
+fclose(fp3);
+
+return 0;
+
+}
