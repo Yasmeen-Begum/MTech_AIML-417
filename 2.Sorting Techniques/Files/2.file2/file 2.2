@@ -1,0 +1,39 @@
+2.2.b.The file contains Unsorted elements
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int main(){
+
+int arr[500];
+
+FILE *fptr;
+
+int i=0;
+
+fptr = fopen("input2.txt", "w");
+
+if (fptr == NULL){
+
+printf("ERROR Creating File!");
+
+exit(1); 
+
+}
+
+while(i<500)
+
+{
+
+fprintf(fptr,"%d \t",rand()% 100);
+
+i++;
+
+}
+
+printf("file created successfully");
+
+fclose(fptr);
+
+}
