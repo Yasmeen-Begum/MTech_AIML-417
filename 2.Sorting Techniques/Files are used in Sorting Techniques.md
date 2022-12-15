@@ -16,7 +16,7 @@ int    i=0,n;
 
 int    str;
 
-fptr = fopen("D:\\inputFile1.txt", "w");
+fptr = fopen("inputFile1.txt", "w");
 
 if(fptr == NULL){
 
@@ -40,7 +40,7 @@ printf("file created succesfully");
 
 fclose(fptr);
 
-fptr = fopen("D:\\inputFile1.txt", "r");  
+fptr = fopen("inputFile1.txt", "r");  
 
 printf("\n The content of the file %s is  :\n",fptr);
 
@@ -63,6 +63,9 @@ return 0;
 output:
 
 ![Screenshot (3152)](https://user-images.githubusercontent.com/91931504/207869104-2fa5caca-50c1-4c23-931a-07c168b28f6b.png)
+
+inputFile.txt
+![Screenshot (3154)](https://user-images.githubusercontent.com/91931504/207870330-1db59234-ad8b-46aa-af92-d2d8a0eb9bfb.png)
 
 
 
