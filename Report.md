@@ -1,4 +1,5 @@
-# MTech_AIML-417
+# Report
+MTech_AIML-417
 Name:Yasmeen Begum
 Roll.no:1005-22-742417
 
@@ -19,9 +20,6 @@ From the above table we can observe that there are 2 sorting techniques which is
     Fig 1.1:Comparative Analysis of Searching techniques graph
    
 
-
-
-
 # 2.Comparative Analysis and Obseravtion for Sorting Techniques
                   
   Table 2.1.Comparative Analysis for Sorting Techniques
@@ -36,3 +34,8 @@ From the above table we can observe that there are 5 sorting techniques and 3 ca
 ![Screenshot (3174)](https://user-images.githubusercontent.com/91931504/208147743-b9863ba3-6fc6-40b7-a198-e063d0ca1c26.png)
                                 
        Fig 2.1.Comparative Analysis for Sorting Techniques
+       
+       
+# References
+
+
