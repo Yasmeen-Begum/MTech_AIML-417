@@ -38,4 +38,31 @@ From the above table we can observe that there are 5 sorting techniques and 3 ca
        
 # References
 
+I.Files 
+1.File are are used for Searching Techniques 
+1.1 Create a file more than 10,000 elements generate using random function 
+
+2. Files are used for Sorting techniques 
+2.1.Creating a file contains the elements size of the array more than 1000. 
+2.2. Creating the file with 50% elements are sorted and remaining unsorted 
+2.2.a.The file contains sorted elements 
+2.2.b.The file contains Unsorted elements 
+2.2.c.The file are used to merge the two files with first half sorted and remaining unsorted elements
+ 
+II SEARCHING TECHNIQUES 
+1.Linear Search 
+1.a Linear search (Iterative Approach):https://www.sanfoundry.com/c-program-linear-search/
+1.b Linear Search (Recursive Approach):https://www.geeksforgeeks.org/recursive-c-program-linearly-search-element-given-array/
+2.Binary Search 
+2.a BinarySearch (Iterative Approach):https://www.programiz.com/dsa/binary-search
+2.b BinarySearch (Recursive Approach):https://www.geeksforgeeks.org/binary-search/
+
+III SORTING TECHNIQUES 
+3.1 Bubble Sort 
+3.2 Selection Sort 
+3.3 Insertion Sort 
+3.4 MergeSort 
+3.5 QuickSort 
+
+
 
