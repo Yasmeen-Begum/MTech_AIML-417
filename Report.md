@@ -35,11 +35,11 @@ From the above table we can observe that there are 5 sorting techniques and 3 ca
                                 
        Fig 2.1.Comparative Analysis for Sorting Techniques
        
-       
+--------------       
 # 3.References
- -------------
+--------------
  
-# SEARCHING TECHNIQUES 
+# Searching Techniques
 
 1.Linear Search 
 
@@ -53,7 +53,7 @@ From the above table we can observe that there are 5 sorting techniques and 3 ca
 
 2.b BinarySearch (Recursive Approach):https://www.geeksforgeeks.org/binary-search/
 
-# SORTING TECHNIQUES 
+# Sorting Techniques
 
 1.Bubble Sort:https://www.programiz.com/dsa/bubble-sort
 
