@@ -1,9 +1,7 @@
 #include<stdio.h>
 #include<time.h>
-int binarySearch(int array[], int x, int low, int high) 
-{
-while (low <= high) 
-{
+int binarySearch(int array[], int x, int low, int high) {
+while (low <= high) {
 int mid = low + (high - low) / 2;
 if (array[mid] == x)
 return mid;
@@ -11,10 +9,8 @@ if (array[mid] < x)
 low = mid + 1;
 else
 high = mid - 1;}
-return -1; 
-}
-int main() 
-{
+return -1; }
+int main() {
 clock_t start,end;
 double execution_time;
 start=clock();
@@ -22,10 +18,8 @@ int arr[11500];
 FILE *fptr;
 int i=0,k,result;
 fptr=fopen("inputFile.txt","r");
-while((fscanf(fptr,"%d",&arr[i]))!=EOF)
-{
-i++;
-}
+while((fscanf(fptr,"%d",&arr[i]))!=EOF){
+i++;}
 fclose(fptr);
 printf("Enter a number to search:");
 scanf("%d",&k);
@@ -38,6 +32,6 @@ printf("Not found");
 end=clock();
 execution_time=((double)(end-start))/CLOCKS_PER_SEC;
 printf("\nTime taken to execute in second: %f",execution_time);
-return 0;
-}
+return 0;}
+
 
