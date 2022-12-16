@@ -1,5 +1,7 @@
 # Output:
 
+# 1.1 Linear Search Iterative Approach
+
 Case 1: Element present at index ‘0’
 
 ![Screenshot (3151)](https://user-images.githubusercontent.com/91931504/208166395-dd036ee9-521f-4dd0-b3ab-460174e0b13b.png)
