@@ -6,6 +6,7 @@ Roll.no:1005-22-742417
 # 1.Comparative Analysis and Obseravtion for the Searching Techniques
 
   Table 1.1.Comparative Analysis for Searching techniques
+  
 ![Screenshot (3175)](https://user-images.githubusercontent.com/91931504/208147694-8607a278-74da-4beb-a3e7-07a55362a75a.png)
        
  
@@ -24,6 +25,7 @@ From the above table we can observe that there are 2 sorting techniques which is
 # 2.Comparative Analysis and Obseravtion for Sorting Techniques
                   
   Table 2.1.Comparative Analysis for Sorting Techniques
+  
 ![Screenshot (3172)](https://user-images.githubusercontent.com/91931504/208147730-5287c662-3d79-4e32-9e07-7c8f78a3faab.png)
       
  
