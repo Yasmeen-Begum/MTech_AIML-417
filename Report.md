@@ -36,8 +36,8 @@ From the above table we can observe that there are 5 sorting techniques and 3 ca
        Fig 2.1.Comparative Analysis for Sorting Techniques
        
 --------------       
-3.References
---------------
+# 3.References
+
  
 # Searching Techniques
 
