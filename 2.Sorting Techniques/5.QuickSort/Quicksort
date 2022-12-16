@@ -1,0 +1,356 @@
+
+--------------------------------
+Case 1 : All Elements are Sorted
+--------------------------------
+
+#include<stdio.h>
+
+#include<stdlib.h>
+
+#include<time.h>
+
+void swap(int *a, int *b) {
+
+int t = *a;
+
+*a = *b;
+
+*b = t;
+
+}
+
+int partition(int array[], int low, int high) {
+
+int pivot = array[high];
+
+int i = (low - 1);
+
+for (int j = low; j < high; j++) {
+
+if(array[j] <= pivot) {
+
+i++;
+
+swap(&array[i], &array[j]);
+
+}
+
+}
+
+swap(&array[i + 1], &array[high]);
+
+return (i + 1);
+
+}
+
+void quickSort(int array[], int low, int high) {
+
+if(low < high) {
+
+int pi = partition(array, low, high);
+
+quickSort(array, low, pi - 1);
+
+quickSort(array, pi + 1, high);
+
+}
+
+}
+
+void printArray(int array[], int size) {
+
+for(int i = 0; i < size; ++i) {
+
+printf("%d ", array[i]);
+
+}
+
+printf("\n");
+
+}
+
+int main() {
+
+clock_t start,end;
+
+double execution_time;
+
+start=clock();
+
+int arr[1200];
+
+FILE *fptr;
+
+int i=0;
+
+fptr=fopen("inputFile1.txt","r");
+
+while((fscanf(fptr,"%d",&arr[i]))!=EOF){
+
+i++;
+
+}
+
+fclose(fptr);int n = sizeof(arr) / sizeof(arr[0]);
+
+quickSort(arr, 0, n - 1);
+
+printf("Sorted array : \t");
+
+printArray(arr, n);
+
+end=clock();
+
+execution_time=((double)(end-start))/CLOCKS_PER_SEC;
+
+printf("\nTime taken to execute in second: %f",execution_time);
+
+return 0;
+
+}
+
+-------------------------------------------------------------
+Case 2: First 50 % elements are Sorted and remaining Unsorted
+-------------------------------------------------------------
+
+#include<stdio.h>
+
+#include<stdlib.h>
+
+#include<time.h>
+
+void swap(int *a, int *b) {
+
+int t = *a;
+
+*a = *b;
+
+*b = t;
+
+}
+
+int partition(int array[], int low, int high) {
+
+int pivot = array[high];
+
+int i = (low - 1);
+
+for (int j = low; j < high; j++) {
+
+if (array[j] <= pivot) {
+
+i++;
+
+swap(&array[i], &array[j]);
+
+}}
+
+swap(&array[i + 1], &array[high]);
+
+return (i + 1);
+
+}
+
+void quickSort(int array[], int low, int high) {
+
+if (low < high) {
+
+int pi = partition(array, low, high);
+
+quickSort(array, low, pi - 1);
+
+quickSort(array, pi + 1, high);
+
+}}
+
+void printArray(int array[], int size) {
+
+for (int i = 0; i < size; ++i) {
+
+printf("%d ", array[i]);}
+
+printf("\n");
+
+}
+
+int main()
+
+{
+
+clock_t start,end;
+
+double execution_time;
+
+start=clock();
+
+int arr[1100];
+
+FILE *fptr;
+
+int i=0;
+
+fptr=fopen("inputFile2.txt","r");
+
+while((fscanf(fptr,"%d",&arr[i]))!=EOF){
+
+i++;
+
+}
+
+fclose(fptr);
+
+int n = sizeof(arr) / sizeof(arr[0]);
+
+quickSort(arr, 0, n - 1);
+
+printf("Sorted array : \t");
+
+printArray(arr, n);
+
+end=clock();
+
+execution_time=((double)(end-start))/CLOCKS_PER_SEC;
+
+printf("\nTime taken to execute in second: %f",execution_time);
+
+return 0;
+
+}
+
+----------------------------------------------------
+Case 3: All elements are Sorted but in reverse Order
+----------------------------------------------------
+
+#include <stdio.h>
+
+#include<time.h>
+
+void swap(int *a, int *b) {
+
+int t = *a;
+
+*a = *b;
+
+*b = t;
+
+}
+
+int partition(int array[], int low, int high) {
+
+int pivot = array[high];
+
+int i = (low - 1);
+
+for (int j = low; j < high; j++) {
+
+if (array[j] <= pivot) {
+
+i++;
+
+swap(&array[i], &array[j]);
+
+}
+
+}
+
+swap(&array[i + 1], &array[high]);
+
+return (i + 1);
+
+}
+
+void quickSort(int array[], int low, int high) {
+
+if (low < high){
+
+int pi = partition(array, low, high);
+
+quickSort(array, low, pi - 1);
+
+quickSort(array, pi + 1, high);
+
+}
+
+}
+
+void reverseArray(int arr[], int start, int end)
+
+{
+
+int temp;
+
+while (start < end)
+
+{
+
+temp = arr[start];
+
+arr[start] = arr[end];
+
+arr[end] = temp;
+
+start++;
+
+end--;
+
+}
+
+}
+
+void printArray(int arr[], int size)
+
+{
+
+int i;
+
+for (i=0; i < size; i++)
+
+printf("%d ", arr[i]);
+
+printf("\n");
+
+}
+
+int main() {
+
+clock_t start,end;
+
+double execution_time;
+
+start=clock();
+
+int arr[1200];
+
+FILE *fptr;
+
+int i=0;
+
+fptr=fopen("inputFile1.txt","r");
+
+while((fscanf(fptr,"%d",&arr[i]))!=EOF){
+
+i++;
+
+}
+
+fclose(fptr);
+
+int n = sizeof(arr) / sizeof(arr[0]);
+
+quickSort(arr, 0, n - 1);
+
+reverseArray(arr, 0, n-1);
+
+printf("Reversed array is \n");
+
+printArray(arr, n);
+
+end=clock();
+
+execution_time=((double)(end-start))/CLOCKS_PER_SEC;
+
+printf("\nTime taken to execute in second: %f",execution_time);
+
+return 0;
+
+}
