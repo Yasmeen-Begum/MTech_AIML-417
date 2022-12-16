@@ -36,27 +36,10 @@ From the above table we can observe that there are 5 sorting techniques and 3 ca
        Fig 2.1.Comparative Analysis for Sorting Techniques
        
        
-# References
-
-# I.Files 
-
-1.File are are used for Searching Techniques 
-
-1.1 Create a file more than 10,000 elements generate using random function 
-
-2. Files are used for Sorting techniques 
-
-4.1.Creating a file contains the elements size of the array more than 1000. 
-
-5.2. Creating the file with 50% elements are sorted and remaining unsorted 
-
-6.2.a.The file contains sorted elements 
-
-7.2.b.The file contains Unsorted elements 
-
-8.2.c.The file are used to merge the two files with first half sorted and remaining unsorted elements
+ References
+ ----------
  
-# II SEARCHING TECHNIQUES 
+# SEARCHING TECHNIQUES 
 
 1.Linear Search 
 
@@ -65,21 +48,22 @@ From the above table we can observe that there are 5 sorting techniques and 3 ca
 1.b Linear Search (Recursive Approach):https://www.geeksforgeeks.org/recursive-c-program-linearly-search-element-given-array/
 
 2.Binary Search 
+
 2.a BinarySearch (Iterative Approach):https://www.programiz.com/dsa/binary-search
 
 2.b BinarySearch (Recursive Approach):https://www.geeksforgeeks.org/binary-search/
 
-# III SORTING TECHNIQUES 
+# SORTING TECHNIQUES 
 
-3.1 Bubble Sort:https://www.programiz.com/dsa/bubble-sort
+1.Bubble Sort:https://www.programiz.com/dsa/bubble-sort
 
-3.2 Insertion Sort:https://www.programiz.com/dsa/insertion-sort 
+2.Insertion Sort:https://www.programiz.com/dsa/insertion-sort 
 
-3.3 Selection Sort:https://www.programiz.com/dsa/selection-sort
+3.Selection Sort:https://www.programiz.com/dsa/selection-sort
 
-3.4 Merge Sort:https://www.programiz.com/dsa/merge-sort
+4.Merge Sort:https://www.programiz.com/dsa/merge-sort
 
-3.5 Quick Sort:https://www.programiz.com/dsa/quick-sort
+5.Quick Sort:https://www.programiz.com/dsa/quick-sort
 
 
 
