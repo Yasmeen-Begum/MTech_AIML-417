@@ -25,3 +25,27 @@ In the linear search- iterative approach we have taken 3 cases and with the take
 
    Fig 1.Comparative Analysis of Cases in Linear Search Iterative Approach graph
 
+# 1.2 Linear Search Recurive Approach
+
+output:
+
+Case 1: Element present at index ‘0’
+
+![Screenshot (3184)](https://user-images.githubusercontent.com/91931504/208297474-6c7500f2-ac5a-4590-ac1d-bae274a5efd3.png)
+
+Case 2: Element present at any middle index
+
+![Screenshot (3185)](https://user-images.githubusercontent.com/91931504/208297481-b84dbbf9-d719-463e-9f7d-be646095238e.png)
+
+Case 2: Element present at any middle index
+
+![Screenshot (3187)](https://user-images.githubusercontent.com/91931504/208297485-ed54fbc3-7eea-4af6-bdbb-93c77c9df713.png)
+
+# Observation for LinearSearch - Recurive Approach
+
+ Table 2.Comparative Analysis of Cases in Linear Search Recurive Approach
+![Screenshot (3189)](https://user-images.githubusercontent.com/91931504/208297487-71e01175-90b9-4ec5-b09b-ac2da69b8a23.png)
+
+
+![Screenshot (3191)](https://user-images.githubusercontent.com/91931504/208297497-08658c61-7b52-4ea8-8049-176b018fb496.png
+     Fig 2.Comparative Analysis of Cases in Linear Search Recurive Approach graph
