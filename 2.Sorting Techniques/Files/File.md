@@ -1,7 +1,6 @@
 
+2.1.Creating a file contains the elements size of the array more than 1000.
 
-
-![Screenshot (3204)](https://user-images.githubusercontent.com/91931504/208314301-766062cb-7a44-4689-a4c7-c39eb45acff9.png)
 
 ![Screenshot (3224)](https://user-images.githubusercontent.com/91931504/208314284-134cd91b-bbcf-429a-a37e-f54fad2c0679.png)
 
