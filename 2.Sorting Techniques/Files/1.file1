@@ -6,7 +6,7 @@
 
 int main(){
 
-int arr[1200];
+int arr[1200];          //modify by me
 
 FILE *fptr;
 
@@ -14,7 +14,7 @@ int i=0,n;
 
 int str;
 
-fptr = fopen("D:\\inputFile1.txt", "w");
+fptr = fopen("D:\\inputFile1.txt", "w");        //modify by me
 
 if(fptr == NULL){
 
@@ -28,7 +28,7 @@ while(i<1000)
 
 {
 
-fprintf(fptr,"%d \t",rand()% 1000);
+fprintf(fptr,"%d \t",rand()% 1000);                 //modify by me
 
 i++;
 
@@ -40,7 +40,7 @@ printf("file created succesfully");
 
 fclose(fptr);
 
-fptr = fopen("D:\\input.txt", "r");
+fptr = fopen("D:\\inputFile1.txt", "r");   //modify by me
 
 printf("\n The content of the file %s is :\n",fptr);
 
