@@ -1,8 +1,15 @@
 
 2.1.Creating a file contains the elements size of the array more than 1000.
 
+![Screenshot (3212)](https://user-images.githubusercontent.com/91931504/208314291-63045790-b710-4b26-90ea-da41fbc777af.png)
 
+inputFile1.txt
 ![Screenshot (3224)](https://user-images.githubusercontent.com/91931504/208314284-134cd91b-bbcf-429a-a37e-f54fad2c0679.png)
+
+
+
+
+
 
 2.2. Creating the file with 50% elements are sorted and remaining unsorted
 
