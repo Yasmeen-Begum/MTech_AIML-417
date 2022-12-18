@@ -1,6 +1,5 @@
-//----------------------------------
+
 // Case 1 : All Elements are Sorted
-//----------------------------------
  
 #include<stdio.h>
 
@@ -78,9 +77,7 @@ return 0;
 }
 
 
-//--------------------------------------------------------------
 //Case 2: First 50 % elements are Sorted and remaining Unsorted
-//--------------------------------------------------------------
 
 #include<stdio.h>
 
@@ -152,9 +149,8 @@ return 0;
 
 }
 
-//----------------------------------------------------
 //Case 3: All elements are Sorted but in reverse Order
-//----------------------------------------------------
+
 
 #include <stdio.h>
 
@@ -225,6 +221,7 @@ while((fscanf(fptr,"%d",&arr[i]))!=EOF)
 i++;
 
 }
+
 fclose(fptr);
 
 int size = sizeof(arr)/sizeof(arr[0]);
