@@ -1,8 +1,9 @@
 
 
 
+![Screenshot (3204)](https://user-images.githubusercontent.com/91931504/208314301-766062cb-7a44-4689-a4c7-c39eb45acff9.png)
 
-
+![Screenshot (3224)](https://user-images.githubusercontent.com/91931504/208314284-134cd91b-bbcf-429a-a37e-f54fad2c0679.png)
 
 2.2. Creating the file with 50% elements are sorted and remaining unsorted
 
