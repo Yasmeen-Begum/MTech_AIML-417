@@ -26,7 +26,7 @@ In the linear search- iterative approach we have taken 3 cases and with the take
    Fig 1.Comparative Analysis of Cases in Linear Search Iterative Approach graph
    
 
-# 1.2 Linear Search Recurive Approach
+# 1.2 Linear Search Recursive Approach
 
 
 Case 1: Element present at index ‘0’
@@ -37,7 +37,7 @@ Case 2: Element present at any middle index
 
 ![Screenshot (3185)](https://user-images.githubusercontent.com/91931504/208297481-b84dbbf9-d719-463e-9f7d-be646095238e.png)
 
-Case 2: Element present at any middle index
+Case 3 : Element is not present in the array
 
 ![Screenshot (3187)](https://user-images.githubusercontent.com/91931504/208297485-ed54fbc3-7eea-4af6-bdbb-93c77c9df713.png)
 
