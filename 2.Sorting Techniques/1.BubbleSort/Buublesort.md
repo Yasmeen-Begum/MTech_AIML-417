@@ -1,3 +1,6 @@
+
+
+
 ----------
 BUBBLE SORT
 ----------
@@ -28,6 +31,7 @@ Case 3: All elements are Sorted but in reverse Order
 Observation for the Bubble Sort
 -------------------------------
 
+Table 1.Comparative Analysis of all cases in Bubble Sort
 ![Screenshot (3158)](https://user-images.githubusercontent.com/91931504/207944468-6c695c1b-4b03-4af8-80a3-81b43b3e4e57.png)
 
 In the Bubble sort we have taken 3 cases and calculated with respect to the time taken for the execution .We observe that case 1 has taken less time and case 2 ,case 3 equal amount of time. The graph has plot with respect to time taken and cases.The graph for Bubble sort shown below
@@ -35,8 +39,7 @@ In the Bubble sort we have taken 3 cases and calculated with respect to the time
 
 ![Screenshot (3157)](https://user-images.githubusercontent.com/91931504/207944476-d2bc6740-2f42-4217-b308-541841603813.png)
 
-
-
+   Fig:Comparative Analysis of all cases in Bubble Sort graph
 
 
 
