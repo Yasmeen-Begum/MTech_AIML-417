@@ -17,7 +17,7 @@ Case 3 : Element is not present in the array
 
  # 2.1 Observation for the Binary Search Iterative Approach
   
-   Table 1.Comparative Analysis of Cases in Binary Search Ierative Approach
+   Table 1.Comparative Analysis of Cases in Binary Search Iterative Approach
 ![Screenshot (3202)](https://user-images.githubusercontent.com/91931504/208300536-8a14f1f2-86aa-4c69-a437-905275aede9d.png)
 
 In the Binary search iterative Approach ,we observe that there are the 3 cases and time taken for the execution has taken we can estimate that there is increase of time taken between the cases .The graph for the Binary Search has been plotted based on the time taken for the execution and cases.
