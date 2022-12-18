@@ -1,6 +1,6 @@
 
 
-# Output:
+# Linear Search Outputs:
 
 # 1.1 Linear Search Iterative Approach
 
