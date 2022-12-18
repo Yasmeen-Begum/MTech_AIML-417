@@ -24,10 +24,10 @@ In the linear search- iterative approach we have taken 3 cases and with the take
 ![Screenshot (3180)](https://user-images.githubusercontent.com/91931504/208167115-faf0bf00-13b9-4bb0-97e6-319fbd1165a3.png)
 
    Fig 1.Comparative Analysis of Cases in Linear Search Iterative Approach graph
+   
 
 # 1.2 Linear Search Recurive Approach
 
-output:
 
 Case 1: Element present at index ‘0’
 
@@ -41,13 +41,14 @@ Case 2: Element present at any middle index
 
 ![Screenshot (3187)](https://user-images.githubusercontent.com/91931504/208297485-ed54fbc3-7eea-4af6-bdbb-93c77c9df713.png)
 
-# Observation for LinearSearch - Recurive Approach
+# Observation for LinearSearch - Recursive Approach
 
- Table 2.Comparative Analysis of Cases in Linear Search Recurive Approach
-![Screenshot (3189)](https://user-images.githubusercontent.com/91931504/208297487-71e01175-90b9-4ec5-b09b-ac2da69b8a23.png)
+ Table 2.Comparative Analysis of Cases in Linear Search Recursive Approach
+ 
+![Screenshot (3192)](https://user-images.githubusercontent.com/91931504/208297738-4278add5-3d07-4435-832a-97c9b54e7bf3.png)
 
 In the Linear search recursive approach have the above contain 3 cases and time taken for the execution.The graph is drawn between the cases and time taken for execution for the 3 cases.we observe that Case 1 taken less time and case 3 has taken more time for the execution.The graph is shown below.
 
-![Screenshot (3192)](https://user-images.githubusercontent.com/91931504/208297738-4278add5-3d07-4435-832a-97c9b54e7bf3.png)
+![Screenshot (3189)](https://user-images.githubusercontent.com/91931504/208297487-71e01175-90b9-4ec5-b09b-ac2da69b8a23.png)
     
-    Fig 2.Comparative Analysis of Cases in Linear Search Recurive Approach graph
+    Fig 2.Comparative Analysis of Cases in Linear Search Recursive Approach graph
