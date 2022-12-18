@@ -13,9 +13,9 @@ if (fptr == NULL){
 printf("ERROR Creating File!");
 exit(1);
 }
-while(size-- >0) {            //modify by me
-last += (rand()%1000);        //modify by me
-fprintf(fptr,"%d \t",last);   //modify by me
+while(size-- >0) {            
+last += (rand()%10000);        //modify by me
+fprintf(fptr,"%d \t",last);  
 }
 printf("file created successfully");
 fclose(fptr);
