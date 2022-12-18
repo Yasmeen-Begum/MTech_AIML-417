@@ -46,6 +46,8 @@ Case 2: Element present at any middle index
  Table 2.Comparative Analysis of Cases in Linear Search Recurive Approach
 ![Screenshot (3189)](https://user-images.githubusercontent.com/91931504/208297487-71e01175-90b9-4ec5-b09b-ac2da69b8a23.png)
 
+In the Linear search recursive approach have the above contain 3 cases and time taken for the execution.The graph is drawn between the cases and time taken for execution for the 3 cases.we observe that Case 1 taken less time and case 3 has taken more time for the execution.The graph is shown below.
 
-![Screenshot (3191)](https://user-images.githubusercontent.com/91931504/208297497-08658c61-7b52-4ea8-8049-176b018fb496.png
-     Fig 2.Comparative Analysis of Cases in Linear Search Recurive Approach graph
+![Screenshot (3192)](https://user-images.githubusercontent.com/91931504/208297738-4278add5-3d07-4435-832a-97c9b54e7bf3.png)
+    
+    Fig 2.Comparative Analysis of Cases in Linear Search Recurive Approach graph
