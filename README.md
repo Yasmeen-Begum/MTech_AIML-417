@@ -22,13 +22,37 @@ Roll.no:1005-22-742417
 
 2.3 BinarySearchOutputs.md
 
-File
+-File
 file.md
 
 2. Sorting Techniques
 
 1.BubbleSort
+
 -BubbleSort
+
 -bubblesort.md
 
-2.
+2.InsertionSort
+
+-InsertionSort
+
+-insertionsort.md
+
+3.SelectionSort
+
+-Selectionsort
+
+-selectionsort.md
+
+4.Merge Sort
+
+-Merge Sort
+
+-Mergesort.md
+
+5.Quick Sort
+
+-Quicksort
+
+-Quicksort.md
