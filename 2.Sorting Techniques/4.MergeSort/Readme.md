@@ -1,3 +1,4 @@
+----------
 Merge sort
 ----------
 
@@ -34,4 +35,4 @@ between cases.Case 1 has taken less time than case 2,case 3.Case 3 has taken mor
 
 ![Screenshot (3167)](https://user-images.githubusercontent.com/91931504/208006955-045a3bbc-9ca0-4f1b-8f1d-5a13128c56d6.png)
  
-     Fig - 3.1 Comparative Analysis of all cases in Merge sort graph
+     Fig - 4.1 Comparative Analysis of all cases in Merge sort graph
