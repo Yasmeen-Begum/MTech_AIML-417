@@ -2,7 +2,8 @@
 2.INSERTION SORT
 ----------------
 
-Description:In this insertion sort sorting technique ,we have taken a input array from the files which we have created.For case 1 the input array from file known as " inputFile1.txt" we have created using random function it contains random numbers with the size of 1200 of array.we are reading each characher using fscanf funtion performing insertionsort operations.For case 2 we are taking inputFile2.txt as input with array size 1100 and reading that file and  performing operations.For case 3 samething can be done in addition to that we are performing reverse operation on inserionsort.   
+# Description:
+In this insertion sort sorting technique ,we have taken a input array from the files which we have created.For case 1 the input array from file known as " inputFile1.txt" we have created using random function it contains random numbers with the size of 1200 of array.we are reading each characher using fscanf funtion performing insertionsort operations.For case 2 we are taking inputFile2.txt as input with array size 1100 and reading that file and  performing operations.For case 3 samething can be done in addition to that we are performing reverse operation on insertionsort.   
 
 -------------------------------
 Case 1: All Elements are Sorted
