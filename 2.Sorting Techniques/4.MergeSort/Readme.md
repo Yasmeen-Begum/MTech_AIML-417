@@ -1,7 +1,7 @@
 Merge sort
 ----------
 
-Description
+
 
 Case 1 : All Elements are Sorted
 --------------------------------
@@ -22,6 +22,7 @@ Case 3: All elements are Sorted but in reverse Order
  Observation for Merge Sort
  --------------------------
  
+ 4.1 Table Comparative Analysis of all cases in Merge sort
 ![Screenshot (3166)](https://user-images.githubusercontent.com/91931504/208006937-0fd73598-38fb-4595-876f-6c6951e8e7d1.png)
 
 From the above table we can observe that for the 3 cases and time taken for the execution for the
@@ -30,3 +31,5 @@ between cases.Case 1 has taken less time than case 2,case 3.Case 3 has taken mor
 2.The graph for merge sort has been plotted based on cases and time taken for the execution.
 
 ![Screenshot (3167)](https://user-images.githubusercontent.com/91931504/208006955-045a3bbc-9ca0-4f1b-8f1d-5a13128c56d6.png)
+ 
+     Fig - 3.1 Comparative Analysis of all cases in Merge sort graph
