@@ -7,7 +7,7 @@ BUBBLE SORT
 Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed. These passes through the list are repeated until no swaps had to be performed during a pass, meaning that the list has become fully sorted. The algorithm, which is a comparison sort, is named for the way the larger elements "bubble" up to the top of the list.
 
 
-Description:In this Bubble sort sorting technique ,we have taken a input array from the files which we have created.For case 1  the input array from file known as " inputFile1.txt" we have created using random function it contains random numbers with the size of 1200 of array.we are reading each characher using fscanf funtion performing bubblesort operations.For case 2 we are taking inputFile2.txt as input and reading that file and  performing operations.For case 3 samething can be done inaddition to that we are performing reverse operation on bubblesort.   
+Description:In this Bubble sort sorting technique ,we have taken a input array from the files which we have created.For case 1  the input array from file known as " inputFile1.txt" we have created using random function it contains random numbers with the size of 1200 of array.we are reading each characher using fscanf funtion performing bubblesort operations.For case 2 we are taking inputFile2.txt as input with array size 1100 and reading that file and  performing operations.For case 3 samething can be done inaddition to that we are performing reverse operation on bubblesort.   
 
 -------------------------------
 Case 1: All Elements are Sorted
