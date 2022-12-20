@@ -1,8 +1,8 @@
---------------
-INSERTION SORT
---------------
+----------------
+2.INSERTION SORT
+----------------
 
-Description: Insertion sort is  
+Description:In this insertion sort sorting technique ,we have taken a input array from the files which we have created.For case 1 the input array from file known as " inputFile1.txt" we have created using random function it contains random numbers with the size of 1200 of array.we are reading each characher using fscanf funtion performing insertionsort operations.For case 2 we are taking inputFile2.txt as input with array size 1100 and reading that file and  performing operations.For case 3 samething can be done in addition to that we are performing reverse operation on inserionsort.   
 
 -------------------------------
 Case 1: All Elements are Sorted
@@ -22,10 +22,10 @@ Case 3: All elements are Sorted but in reverse Order
 
 ![Screenshot (3130)](https://user-images.githubusercontent.com/91931504/207945307-ae765df6-33a5-4380-8e01-fed1b74bbda6.png)
 
-------------------------------
-Observation for Insertion sort
-------------------------------
-
+----------------------------------
+2.1 Observation for Insertion sort
+----------------------------------
+Table 2.1 Comparative analysis of all cases in insertion Sort
 ![Screenshot (3160)](https://user-images.githubusercontent.com/91931504/207945835-ac2634cb-0435-431b-adc9-479b4cf37d4f.png)
 
 From the above table we can observe that , 3 cases has taken time for the execution case1 has taken less time than case 2 and case3 there is 4 times of difference we can observe between the cases .The graph for the Insertion Sort has been plotted.The graph shown below.
@@ -33,6 +33,7 @@ From the above table we can observe that , 3 cases has taken time for the execut
 
 ![Screenshot (3161)](https://user-images.githubusercontent.com/91931504/207945853-d8f8ecb8-4f27-46df-916b-91d22d89bfb1.png)
 
+     Fig 2.1 Comparative analysis of all cases in insertion Sort graph
 
 
 
