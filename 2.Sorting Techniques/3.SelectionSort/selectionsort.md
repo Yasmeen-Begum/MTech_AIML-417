@@ -34,4 +34,4 @@ In the Selection Sort sorting technique we taken 3 Cases and time taken for exec
 
 ![Screenshot (3164)](https://user-images.githubusercontent.com/91931504/207947712-4b7e4699-e6bf-4789-bc86-7304526045c3.png)
 
-      3.1 Table Comparative Analysis of all cases in Selection sort graph
+     Fig 3.1 Comparative Analysis of all cases in Selection sort graph
