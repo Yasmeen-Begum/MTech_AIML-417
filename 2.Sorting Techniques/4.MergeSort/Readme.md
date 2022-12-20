@@ -1,6 +1,8 @@
 Merge sort
 ----------
 
+# Description
+In this Merge sort sorting technique ,we have taken a input array from the files which we have created.For case 1 the input array from file known as " inputFile1.txt" we have created using random function it contains random numbers with the size of 1200 of array.we are reading each characher using fscanf funtion performing merge sort operations.For case 2 we are taking inputFile2.txt as input with array size 1100 and reading that file and  performing operations.For case 3 samething can be done in addition to that we are performing reverse operation on merge sort.   
 
 
 Case 1 : All Elements are Sorted
@@ -19,7 +21,7 @@ Case 3: All elements are Sorted but in reverse Order
 ----------------------------------------------------
 ![Screenshot (3117)](https://user-images.githubusercontent.com/91931504/208006582-62bec3a6-6f8f-43ca-ab59-c544941fb496.png)
 
- Observation for Merge Sort
+ 4.1 Observation for Merge Sort
  --------------------------
  
  4.1 Table Comparative Analysis of all cases in Merge sort
