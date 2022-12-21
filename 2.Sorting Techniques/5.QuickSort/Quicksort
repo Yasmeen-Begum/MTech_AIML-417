@@ -1,4 +1,10 @@
+MTech_AIML-417
 
+Name:Yasmeen Begum
+
+Roll.no:1005-22-742417
+
+5. Quick Sort
 --------------------------------
 Case 1 : All Elements are Sorted
 --------------------------------
@@ -77,13 +83,13 @@ double execution_time;
 
 start=clock();
 
-int arr[1200];
+int arr[1200]; //modify by me
 
 FILE *fptr;
 
 int i=0;
 
-fptr=fopen("inputFile1.txt","r");
+fptr=fopen("inputFile1.txt","r"); //modify by me
 
 while((fscanf(fptr,"%d",&arr[i]))!=EOF){
 
@@ -183,14 +189,14 @@ double execution_time;
 
 start=clock();
 
-int arr[1100];
+int arr[1100]; //modify by me
 
 FILE *fptr;
 
 int i=0;
 
-fptr=fopen("inputFile2.txt","r");
-
+fptr=fopen("inputFile2.txt","r"); //modify by me
+ 
 while((fscanf(fptr,"%d",&arr[i]))!=EOF){
 
 i++;
@@ -319,13 +325,13 @@ double execution_time;
 
 start=clock();
 
-int arr[1200];
+int arr[1200]; //modify by me
 
 FILE *fptr;
 
 int i=0;
 
-fptr=fopen("inputFile1.txt","r");
+fptr=fopen("inputFile1.txt","r"); modify by me
 
 while((fscanf(fptr,"%d",&arr[i]))!=EOF){
 
