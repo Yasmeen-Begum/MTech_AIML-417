@@ -4,11 +4,6 @@ Roll No:1005-22-742417
 
 1.1 Linear Search Iterative Approach
 
-Description: For linear search Iterative approach ,we included header files,we have created clock varaiable, take array size and input from file contains random values ,read all values ,
-
-
-
-
 #include <stdio.h>
 
 #include<time.h>
