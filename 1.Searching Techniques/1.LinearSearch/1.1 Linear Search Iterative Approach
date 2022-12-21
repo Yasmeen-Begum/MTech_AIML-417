@@ -23,13 +23,13 @@ double execution_time;
 
 start=clock();
 
-int arr[11500];
+int arr[11500]; //modify by me
 
 FILE *fptr;
 
 int i=0,k,flag=0;
 
-fptr=fopen("inputFile.txt","r");
+fptr=fopen("inputFile.txt","r"); //modify by me
 
 while((fscanf(fptr,"%d",&arr[i]))!=EOF)
 
