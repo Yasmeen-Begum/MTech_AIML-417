@@ -1,3 +1,11 @@
+MTech_AIML-417
+
+Name:Yasmeen Begum
+
+Roll.no:1005-22-742417
+
+Linerar Search Recursive Approach
+
 
 #include <stdio.h>
 #include<time.h>
@@ -18,10 +26,10 @@ int main(){
 clock_t start,end;
 double execution_time;
 start=clock();
-int arr[11500];
+int arr[11500]; //modify by me
 FILE *fptr;
-int i=0,k,pos=0;
-fptr=fopen("inputFile.txt","r");
+int i=0,k,pos=0; 
+fptr=fopen("inputFile.txt","r"); //modify by me
 while((fscanf(fptr,"%d",&arr[i]))!=EOF){
 i++;}
 fclose(fptr);
