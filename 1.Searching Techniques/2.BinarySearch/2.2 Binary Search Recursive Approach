@@ -1,3 +1,11 @@
+MTech_AIML-417
+
+Name:Yasmeen Begum
+
+Roll.no:1005-22-742417
+
+2.2 Binary Search recursive approach
+
 #include<stdio.h>
 #include<time.h>
 int binarySearch(int arr[], int l, int r, int x){
@@ -11,10 +19,10 @@ int main(void){
 clock_t start,end;
 double execution_time;
 start=clock();
-int arr[11500];
+int arr[11500]; //modify by me
 FILE *fptr;
 int i=0,index,k;
-fptr=fopen("inputFile.txt","r");
+fptr=fopen("inputFile.txt","r"); //modify by me
 while((fscanf(fptr,"%d",&arr[i]))!=EOF){
 i++;}
 fclose(fptr);
