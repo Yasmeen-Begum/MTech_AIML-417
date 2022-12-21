@@ -1,3 +1,11 @@
+MTech_AIML-417
+
+Name:Yasmeen Begum
+
+Roll.no:1005-22-742417
+
+2.1 Biary Search iterative approach
+
 #include<stdio.h>
 #include<time.h>
 int binarySearch(int array[], int x, int low, int high) {
@@ -14,10 +22,10 @@ int main() {
 clock_t start,end;
 double execution_time;
 start=clock();
-int arr[11500];
+int arr[11500]; //modify by me
 FILE *fptr;
 int i=0,k,result;
-fptr=fopen("inputFile.txt","r");
+fptr=fopen("inputFile.txt","r"); //modify by me
 while((fscanf(fptr,"%d",&arr[i]))!=EOF){
 i++;}
 fclose(fptr);
