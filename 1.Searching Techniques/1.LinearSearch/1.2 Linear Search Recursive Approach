@@ -4,46 +4,83 @@ Name:Yasmeen Begum
 
 Roll.no:1005-22-742417
 
-Linerar Search Recursive Approach
-
+1.1 Linerar Search Recursive Approach
 
 #include <stdio.h>
+
 #include<time.h>
+
 int RecursiveLS(int arr[], int size, int x ){
+
 int pos; 
+
 size--; 
+
 if(size >= 0) {
+
 if (arr[size] == x)
+
 return size;
+
 else
+
 pos = RecursiveLS(arr, size, x);
+
 }
+
 else
+
 return -1;
+
 return pos;
+
 }
+
 int main(){
+
 clock_t start,end;
+
 double execution_time;
+
 start=clock();
+
 int arr[11500]; //modify by me
+
 FILE *fptr;
+
 int i=0,k,pos=0; 
+
 fptr=fopen("inputFile.txt","r"); //modify by me
+
 while((fscanf(fptr,"%d",&arr[i]))!=EOF){
+
 i++;}
+
 fclose(fptr);
+
 printf("Enter the element to search ");
+
 scanf("%d", &k);
+
 int n= sizeof(arr)/sizeof(arr[0]);
+
 pos = RecursiveLS(arr, n, k);
+
 if (pos != -1){
+
 printf("Element %d is found at pos %d ", k,pos);}
+
 else{
+
 printf("Element %d is not found",k);}
+
 end=clock();
+
 execution_time=((double)(end-start))/CLOCKS_PER_SEC;
+
 printf("\nTime taken to execute in second: %f",execution_time);
+
 return 0;
+
 }
 
