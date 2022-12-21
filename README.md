@@ -22,7 +22,7 @@ Roll.no:1005-22-742417
 
 2.3 BinarySearchOutputs.md
 
--File
+a.File
 file.md
 
 2. Sorting Techniques
@@ -57,7 +57,7 @@ file.md
 
 -Quicksort.md
 
-Files
+b.Files
 
 1.file1
 
